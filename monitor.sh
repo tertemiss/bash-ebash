@@ -15,3 +15,5 @@ pkill -P  $$ inotifywait
 PID=$(sort "$LOG" | uniq -c | sort -nr | head -n 1 | awk '{print $2}')
 
 echo "$PID" > /root/answer.txt
+
+echo "kurwa work"
